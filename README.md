@@ -3,7 +3,7 @@
 
 여기서는 [선형회귀](http://www.statisticssolutions.com/what-is-linear-regression/) 모델을 사용하며, 학습을 위한 데이터셋은 다양한 동물들의 뇌와 몸무게를 측정한 값들로 이루어져있습다. 데이타에 맞게 "선긋기"를 하기 위해 scikit- learn 이라는 머신러닝 라이브라리를 사용할 것이며, matplotlib을 써서 차트에 그래프를 그려볼 것입니다.
 
-## 필수 라이브러리(Dependencies)
+## 종속성
 
 * pandas
 * scikit-learn
