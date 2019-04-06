@@ -25,8 +25,8 @@ scikit-learn을 사용하여 'challenge_dataset'의 최적 선을 찾아보세�
 
 필요하다면 scikit-learn [문서](http://scikit-learn.org/stable/documentation.html)도 참고하시면 도움이 될 것입니다.
 
-*이 주간 도전과제는  Udacity의 nanodegree 프로젝트와는 관련이 없습니다.
-*선형회귀를 3가지의 다른 변수들을 사용하여 수행한다면 보너스 점수가 있습니다.
+* 이 주간 도전과제는  Udacity의 nanodegree 프로젝트와는 관련이 없습니다.
+* 선형회귀를 3가지의 다른 변수들을 사용하여 수행한다면 보너스 점수가 있습니다.
 
 ## 저작권
 
