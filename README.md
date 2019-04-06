@@ -28,6 +28,6 @@ scikit-learn을 사용하여 'challenge_dataset'의 최적 선을 찾아보세�
 *이 주간 도전과제는  Udacity의 nanodegree 프로젝트와는 관련이 없습니다.
 *선형회귀를 3가지의 다른 변수들을 사용하여 수행한다면 보너스 점수가 있습니다.
 
-## Credits
+## 저작권
 
 원본 코드의 저작권은 [gcrowder](https://github.com/gcrowder)에게 있습니다. 저는 단지 더 많은 사람들이 시작할 수 있도록 풀어썼을 뿐입니다.
