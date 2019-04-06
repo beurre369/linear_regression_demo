@@ -1,30 +1,33 @@
-# linear_regression_demo
-This is the code for "How to Make a Prediction - Intro to Deep Learning #1' by Siraj Raval on YouTube
+# 선형회귀 데모 (linear_regression_demo)
+이 코드는 Siraj Raval의 유튜브 영상 ["딥러닝 시작하기 #1 - 예측 하는 방법"](https://youtu.be/vOppzHpvTiQ)에 관한 것이며, 이는 "딥러닝 시작하기" 시리즈의 첫번째 에피소드로 동물들의 몸무게가 주어졌을 때, 뇌의 무게를 예측하기 위한 작성되었습니다. 
 
-##Overview
-This is the code for [this](https://youtu.be/vOppzHpvTiQ) video by Siraj Raval on Youtube. This is the 1st episode in my 'Intro to Deep Learning' series. The goal is to predict an animal's body weight given it's brain weight. The model we'll be using is called [Linear Regression](http://www.statisticssolutions.com/what-is-linear-regression/). The dataset we're using to train our model is a list of brain weight and body weight measurements from a bunch of animals. We'll fit our line to the data using the scikit learn machine learning library, then plot our graph using matplotlib.
+여기서는 [선형회귀](http://www.statisticssolutions.com/what-is-linear-regression/) 모델을 사용하며, 학습을 위한 데이터셋은 다양한 동물들의 뇌와 몸무게를 측정한 값들로 이루어져있습다. 데이타에 맞게 "선긋기"를 하기 위해 scikit- learn 이라는 머신러닝 라이브라리를 사용할 것이며, matplotlib을 써서 차트에 그래프를 그려볼 것입니다.
 
-##Dependencies
+## Dependencies
 
 * pandas
 * scikit-learn
 * matplotlib
 
-You can just run
+터미널창에서 다음 명령을 실행하여 위의 필수 라이브리들을 설치할 수 있습니다.
 `pip install -r requirements.txt` 
-in terminal to install the necessary dependencies. Here is a link to [pip](https://pip.pypa.io/en/stable/installing/) if you don't already have it.
+ 
+pip가 없다면 [pip](https://pip.pypa.io/en/stable/installing/)에서 다운받으세요. 
 
-##Usage
+## 사용법
 
-Type `python demo.py` into terminal and you'll see the scatter plot and line of best fit appear.
+터미널창에서 다음 명령을 실행하시면, scatter 차트와 최적 선이 그어진 것을 확인하실 수 있습니다.
+`python demo.py`
 
-##Challenge
+## 도전과제
 
-The challenge for this video is to use scikit-learn to create a line of best fit for the included 'challenge_dataset'. Then, make a prediction for an existing data point and see how close it matches up to the actual value. Print out the error you get. You can use scikit-learn's [documentation](http://scikit-learn.org/stable/documentation.html) for more help. These weekly challenges are not related to the Udacity nanodegree projects, those are additional.
+scikit-learn을 사용하여 'challenge_dataset'의 최적 선을 찾아보세요! 그리고 기존 데이터들의 예측값을 만들어보고 실제 값과 얼마나 비슷한 지 확인해보시고, 오차를 출력해보세요. 
 
-*Bonus points if you perform linear regression on a dataset with 3 different variables*
+필요하다면 scikit-learn [문서](http://scikit-learn.org/stable/documentation.html)도 참고하시면 도움이 될 것입니다.
 
-##Credits
+*이 주간 도전과제는  Udacity의 nanodegree 프로젝트와는 관련이 없습니다.
+*선형회귀를 3가지의 다른 변수들을 사용하여 수행한다면 보너스 점수가 있습니다.
 
-The credits for the original code go to [gcrowder](https://github.com/gcrowder). I've merely created a wrapper to get people started.
+## Credits
 
+원본 코드의 저작권은 [gcrowder](https://github.com/gcrowder)에게 있습니다. 저는 단지 더 많은 사람들이 시작할 수 있도록 풀어썼을 뿐입니다.
